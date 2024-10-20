@@ -1,4 +1,3 @@
-// Your task is to utilize the Jest API to partially mock the contents of a module.
 import { mockOne, mockTwo, mockThree, unmockedFunction } from './index';
 
 jest.mock('./index', () => {
